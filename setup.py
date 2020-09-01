@@ -4,7 +4,7 @@ setup(
     name='django-vkontakte-wall',
     version=__import__('vkontakte_wall').__version__,
     description='Django implementation for vkontakte API Wall',
-    long_description=open('README.md').read(),
+    long_description=open('README.md',"rb").read().decode('utf8'),
     author='ramusus',
     author_email='ramusus@gmail.com',
     url='https://github.com/ramusus/django-vkontakte-wall',
